@@ -1,0 +1,28 @@
+print("""4th Industrial Revolution
+
+what is the 4th industrial revolution
+
+- MENU -
+*********
+Please choose one of the options below, and press enter
+
+1)a new cooking stove
+2)the 4th industrial revolution is a digitalized revolution
+3)your mom
+""")
+answer = "empty"
+optionchoice = input()
+
+while (answer == "empty"):
+  if(optionchoice == "1"):
+    print("wrong")
+    answer = "chosen"
+  elif(optionchoice == "2"):
+    print("wow so smart")
+    answer = "chosen"
+  elif(optionchoice == "3"):
+    print("nice")
+    answer = "chosen"
+  else:
+    print("try harder")
+    optionchoice = input()
