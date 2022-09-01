@@ -1,0 +1,39 @@
+print("""Continuing Systems notes
+
+- NOTES -
+*********
+Please choose one of the options below, and press enter
+
+1)what is are the four Implementation Methods
+2)what is the Parallel Implementation Method
+3)what is the Pilot Implementation Method
+4)what is the Phased Implementation Method
+5)what is the Big Bang Implementation Method
+6)what stages should Data Migration go through
+
+""")
+answer = "empty"
+optionchoice = input()
+
+while (answer == "empty"):
+  if(optionchoice == "1"):
+    print("The three different implementation methods are Parallel,Big Bang,Pilot,Phased.")
+    answer = "chosen"
+  elif(optionchoice == "2"):
+    print("Parallel: in this implementation method, both systems work in parallel for a short period of time. This method also allows measuring output of the new system before the older system is taken offline.")
+    answer = "chosen"
+  elif(optionchoice == "3"):
+    print("Pilot: this implementation method has a smaller portion of an organization or company change to the new system, called the pilot group or pilot site")
+    answer = "chosen"
+  elif(optionchoice == "4"):
+    print("Phased: this implementation method sees the company or organization convert one module or part of the system at a time over a period of time. ")
+    answer = "chosen"
+  elif(optionchoice == "5"):
+    print("Big Bang/Direct/Immediate: in this implementation method, as soon as preperations are made, one system is entirely discontinued, and the other brought online.")
+    answer = "chosen"
+  elif(optionchoice == "6"):
+    print("Data migration should go through a series of stages; Plan, Migrate, & Validate.")
+    answer = "chosen"
+  else:
+    print("nice try")
+    optionchoice = input()
