@@ -1,0 +1,37 @@
+
+print("""System Design 
+
+- NOTES -
+*********
+Please choose one of the options below, and press enter
+
+1)what is On-Premise software?
+2)what is Off-Premise software commonly called?
+3)what is Software as a service? (SaaS)
+4)what is System Life Cycle?
+5)what is Functional Testing 
+
+
+""")
+answer = "empty"
+optionchoice = input()
+
+while (answer == "empty"):
+  if(optionchoice == "1"):
+    print("On-Premise Software is software that is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud.")
+    answer = "chosen"
+  elif(optionchoice == "2"):
+    print(" off-premises software is commonly called software as a service,SaaS or “cloud computing”.")
+    answer = "chosen"
+  elif(optionchoice == "3"):
+    print("Software as a Service is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted")
+    answer = "chosen"
+  elif(optionchoice == "4"):
+    print("The system life cycle is the cycle in which a system is made and implemented.System development life cycle phases include planning, system analysis, system design, development, implementation, integration and testing, and operations and maintenance. ")
+    answer = "chosen"
+  elif(optionchoice == "5"):
+    print("Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements.")
+    answer = "chosen"
+  else:
+    print("nice try")
+    optionchoice = input()
