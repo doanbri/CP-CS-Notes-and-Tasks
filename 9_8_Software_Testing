@@ -1,0 +1,50 @@
+print("""Software Testing notes
+
+- NOTES -
+*********
+Please choose one of the options below, and press enter
+
+1)what is debugging?
+2)what is dynamic testing?
+3)what is static testing?
+4)what is Verification in Software testing?
+5)what is Validation in Software testing?
+6)what is alpha testing?
+7)what is beta testing? 
+8)what is normal test data?
+9)what is extreme test data? 
+""")
+answer = "empty"
+optionchoice = input()
+
+while (answer == "empty"):
+  if(optionchoice == "1"):
+    print("Debugging is the systematic process of correcting (and finding) bugs or errors in a program")
+    answer = "chosen"
+  elif(optionchoice == "2"):
+    print("Dynamic Testing is testing the real system and seeing the results from it")
+    answer = "chosen"
+  elif(optionchoice == "3"):
+    print("Static Testing is more like seeing the code or sketches and not running it to find bugs/mistakes")
+    answer = "chosen"
+  elif(optionchoice == "4"):
+    print("Verification is a process of checking documents, design, code, and program in order to check if the software has been built according to the requirements or not. ")
+    answer = "chosen"
+  elif(optionchoice == "5"):
+    print("Validication is a dynamic mechanism of testing and validating if the software product actually meets the intended purpose")
+    answer = "chosen"
+  elif(optionchoice == "6"):
+    print("Alpha testing is when companys give early products to people within the company who are not directly involved with the creation of the product for feedback.")
+    answer = "chosen"
+  elif(optionchoice == "7"):
+    print("Beta testing is when the product is released to the public for feedback before the final product is finished")
+    answer = "chosen"
+  elif(optionchoice == "8"):
+    print("a normal data test is a typical data that should be able to be accepted")
+    answer = "chosen"
+  elif(optionchoice == "9"):
+    print("Data at the upper or lower limits of expectations that should be accepted")
+    answer = "chosen"
+  else:
+    print("nice try")
+    optionchoice = input()
