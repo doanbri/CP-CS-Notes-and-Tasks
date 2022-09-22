@@ -1,0 +1,50 @@
+print("""Update & Components notes
+
+- NOTES -
+*********
+Please choose one of the options below, and press enter
+
+1)what does patches mean?
+2)what does upgrades mean?
+3)what does updates mean?
+4)what does releases mean?
+5)what does human resources mean?
+6)what does computer network mean?
+7)what does dumb terminal mean?
+8)what does firewall mean?
+9)what does router mean? 
+""")
+answer = "empty"
+optionchoice = input()
+
+while (answer == "empty"):
+  if(optionchoice == "1"):
+    print("Patches: used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that patches may introduce new bugs.")
+    answer = "chosen"
+  elif(optionchoice == "2"):
+    print("Upgrades: contain a novel function or characteristic, as well as cumulative bug fixes. Upgrades often require an additional purchase.")
+    answer = "chosen"
+  elif(optionchoice == "3"):
+    print("Updates: improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection.")
+    answer = "chosen"
+  elif(optionchoice == "4"):
+    print("Releases: final, working versions of software applications. Prior to release, they should undergo alpha and beta testing. A release is a new product, or an upgraded product. ")
+    answer = "chosen"
+  elif(optionchoice == "5"):
+    print("Human Resources: people who are part of (or could be part of) an organization, business, or economy.")
+    answer = "chosen"
+  elif(optionchoice == "6"):
+    print("Computer Network: A set of computer systems that are interconnected and share resources, as well as data. For example: Local Area Network, Wide Area Network, etc.")
+    answer = "chosen"
+  elif(optionchoice == "7"):
+    print("A dumb terminal is a terminal that does not performing local processing of entered information, but serves only as an input/output device for an attached or network-linked processor.")
+    answer = "chosen"
+  elif(optionchoice == "8"):
+    print("Firewalls are security systems designed to prevent unauthorised access to or from your computer or private network.Firewalls can be implemented in hardware, software or a combination of both.")
+    answer = "chosen"
+  elif(optionchoice == "9"):
+    print("A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks.")
+    answer = "chosen"
+  else:
+    print("nice try")
+    optionchoice = input()
