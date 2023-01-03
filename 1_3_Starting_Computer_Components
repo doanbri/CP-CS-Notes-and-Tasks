@@ -1,1 +1,37 @@
+print("""4th Industrial Revolution
+
+what is the 4th industrial revolution
+
+- MENU -
+*********
+let i = 1; 
+
+while (i < 15) {
+      i * 2
+}
+
+open(data.txt)
+write(i)
+close(data.txt)
+
+
+All questions are below 
+
+1)What part of the code is the input? the input in this code is let i = 1;
+
+2)What part of the code is the process? the process in this code is while (i < 15) {
+      i * 2
+}
+
+3)What part of the code is the output? this is the output open(data.txt)
+write(i)
+close(data.txt
+
+4)Does it utilize feedback? how? it uses the feedback to write the variable then stores it 
+
+5)Does it utilize storage? how? it uses storage in last section of the code open(data.txt)
+write(i)
+close(data.txt) to store the variable (i)
+
+
 
